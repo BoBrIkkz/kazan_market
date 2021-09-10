@@ -1,9 +1,10 @@
 html
     font-size: 18px
+    line-height: 120%!important
 body
     margin: 0
     outline: none
-    background: url(../img/background.png), url(../img/hero_bg_meat.png) no-repeat top 130px left, url(../img/header_tomato.png) no-repeat top right
+    background: url(../img/background.png), url(../img/bg_meat.png) no-repeat top 130px left, url(../img/header_tomato.png) no-repeat top right
 button
     cursor: pointer
 a
@@ -12,12 +13,44 @@ a
 .df
     display: flex
 
+.jcsb
+    justify-content: space-between
+.aic
+    align-items: center
 .container
     margin: auto
     max-width: 1440px
 .center
     display: flex
     justify-content: center
+.fdc
+    flex-direction: column
+.aifs
+    align-items: flex-start
+.posr
+    position: relative
+.mt30
+    margin-top: 30px
+.mr50
+    margin-right: 50px
+.orange
+    color: #FF4D00
+.tittle
+    font-family: Gilroy
+    font-style: normal
+    font-weight: bold
+    font-size: 48px
+    line-height: 120%
+    margin: 0
+.catalog__circle
+    background: url(../img/catalog_circle.png) no-repeat left, white
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)
+    border-radius: 10px
+    font-size: 24px
+    line-height: 120%
+    padding: 25px 120px
+    margin-top: 50px
+    margin-bottom: 30px
 .button
     &--primary
         border: 1px solid #FFFFFF
@@ -30,17 +63,6 @@ a
         font-size: 20px
         line-height: 150%
         font-family: Montserrat
-        &::before
-            border: 1px solid #FFFFFF
-            box-sizing: border-box
-            border-radius: 30px
-            background: #FF4D00
-            padding: 15px 30px
-            color: #FFFFFF
-            font-weight: bold
-            font-size: 20px
-            line-height: 150%
-            font-family: Montserrat
         &:hover
             box-shadow: 0px 0px 20px rgba(255, 76, 0, 0.8)
             transition: 0.5s
