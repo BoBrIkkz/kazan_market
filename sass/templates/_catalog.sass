@@ -1,7 +1,148 @@
 .catalog
     background: white
     padding-top: 50px
+    font-family: Gilroy
+    margin-bottom: 200px
     &__one
         margin-right: 50px
         margin-top: 30px
         margin: 0px 50px 0px 150px
+
+.sliders
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+.slider
+    width: 290px
+    height: 200px
+    background: #C4C4C4
+    border-radius: 10px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__text
+        font-size: 14px
+        line-height: 120%
+    &__add
+        padding: 25px
+        border-radius: 50%
+        background: url(../img/cart.svg) no-repeat center, #FF9900
+        border: none
+        margin-left: 22px
+        position: relative
+        &__plus
+            width: 25px
+            height: 25px
+            background: url(../img/+.svg) no-repeat center, #000
+            border-radius: 50%
+            position: absolute
+            right: -6px
+            top: -6px
+            color: white
+            text-align: center
+
+    &__button
+    &__buttons
+        display: flex
+        margin-top: 15px
+    &__price
+        display: flex
+        justify-content: space-between
+        width: 290px
+        margin-top: 10px
+        height: 40px
+        border: 1px solid #F8F8F8
+        box-sizing: border-box
+        border-radius: 10px
+        align-items: center
+        &__border
+            display: flex
+            justify-content: space-between
+            width: 220px
+            border: 1px solid #FF9900
+            box-sizing: border-box
+            border-radius: 10px
+            padding: 5px 20px 5px 10px
+        &__first
+            color: #000000
+            opacity: 0.5
+            font-size: 18px
+            text-decoration: #FF0000 line-through
+        &__second
+            font-weight: 600
+            font-size: 24px
+            line-height: 120%
+        &__text
+            font-size: 12px
+            line-height: 120%
+    &__card
+        background: #FFFFFF
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)
+        border-radius: 10px
+        padding: 20px
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__tittle
+        text-align: center
+        margin-top: 10px
+        margin-bottom: 0
+    &__subtittle
+        margin-top: 10px
+        margin-bottom: 20px
+        text-align: center
+    &__textBlock
+        background: #F8F8F8
+        border-radius: 10px
+        width: 290px
+    &__text
+        display: flex
+        justify-content: space-between
+        border-bottom: 1px solid #C4C4C4
+        padding: 10px 10px 10px 20px
+        background: url(../img/orange_circle.svg) no-repeat 5px 50%
+        &:nth-last-child(1)
+            border: 0
+
+.circle
+    background: #FFFFFF
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)
+    border-radius: 10px
+    display: flex
+    flex-wrap: wrap
+    padding: 30px 35px 30px 30px
+    font-family: Montserrat
+    &__tittle
+        margin: 0
+        margin-bottom: 20px
+    &__subtittle
+        font-weight: normal
+        font-size: 18px
+        line-height: 150%
+    &__left
+        max-width: 422px
+        border-right: 1px solid rgba(0, 0, 0, 0.5)
+        margin-right: 60px
+    &__right
+        display: flex
+        flex-direction: column
+    &__card
+        background: #FFFFFF
+        border: 1px solid rgba(0, 0, 0, 0.5)
+        box-sizing: border-box
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)
+        border-radius: 10px
+        width: 135px
+        height: 140px
+        padding: 15px 12px
+        display: flex
+        flex-direction: column
+        font-weight: normal
+        font-size: 14px
+        line-height: 150%
+        text-align: center
+        align-items: center
+    &__cards
+        display: flex
+        justify-content: space-between
+        width: 880px
